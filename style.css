@@ -23,11 +23,13 @@ h1 span {
   font-weight: 300;
 }
 .left {
-  width: 60%;
+  width: 55%;
   padding: 0 40px;
   background: url('./images/bg-pattern-desktop.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
 }
 .inner-container{
   max-width: 440px;
@@ -42,7 +44,7 @@ p {
   margin: 40px 0;
 }
 .right {
-  width: 40%;
+  width: 45%;
   background: url("./images/hero-desktop.jpg");
   background-size: cover;
   background-position: center center;
